@@ -1,0 +1,150 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #191919;
+  color: #ffc4dd;
+  position: relative;
+}
+
+h1 {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ff6fb5;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff94cc;
+}
+
+p {
+  color: #e9d5da;
+}
+
+/* ID selectors */
+
+#top-content {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* class selectors */
+
+/* nav bar */
+.navigation {
+  background-color: #191919;
+  font-family: "Merriweather", serif;
+}
+
+.navigation-text {
+  font-size: 1.2rem;
+}
+
+/* top-section */
+.sec-one-h {
+  margin-top: 10%;
+}
+
+.sec-one-pic {
+  width: 400px;
+  height: auto;
+  border-radius: 7%;
+  margin-top: 4%;
+}
+
+.sec-one-p {
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 0 0 0;
+}
+
+/* slide section */
+
+.slide {
+  padding: 4% 15%;
+  text-align: center;
+}
+
+.slide-image {
+  padding-top: 5%;
+}
+
+/* hobby section */
+
+#hobbies {
+  text-align: center;
+  margin: 7% 15%;
+}
+
+.food {
+  float: left;
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ea-fifa {
+  float: right;
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.sec-three-p {
+  margin-top: 5%;
+}
+.sec-three-h {
+  margin-top: 15%;
+  padding-bottom: 0;
+}
+
+/* contacts */
+#contacts {
+  margin: 15% auto;
+}
+
+/* button */
+
+.btn-text {
+  background-color: #ff6fb5;
+}
+
+.contact {
+  color: #e9d5da;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact:hover {
+  text-decoration: none;
+}
+
+/* foot */
+.footer {
+  background-color: #7d1935;
+  text-align: center;
+  padding-top: 150px;
+  margin-top: 0;
+}
+.foot-img {
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+.foot-p {
+  position: absolute;
+  left: 650px;
+}
